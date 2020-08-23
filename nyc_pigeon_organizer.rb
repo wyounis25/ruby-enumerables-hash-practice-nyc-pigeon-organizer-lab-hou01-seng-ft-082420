@@ -13,6 +13,7 @@ v.each do |names,key|
     final_array[name][k] = []
   end
  end
+ end 
 
 
  final_array[name][k].push(names.to_s)
@@ -22,4 +23,3 @@ end
 end
 end
 
-end 
